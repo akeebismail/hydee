@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: kibb
  * Date: 5/20/18
- * Time: 1:10 PM
+ * Time: 3:32 PM
  */
 
 $GLOBALS['config'] = [
@@ -11,7 +11,6 @@ $GLOBALS['config'] = [
         'host'=>'localhost',
         'user'=>'root',
         'pass'=>'akeebdeen',
-        'db'=>'forever_living'
+        'db'=>'hydee_task'
     ],
-
 ];
