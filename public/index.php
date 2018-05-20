@@ -6,7 +6,7 @@
  * Time: 3:33 PM
  */
 include 'constants.php';
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 use App\Core\Database;
 if (Database::getDbInstance()){
     echo  'db connected';
