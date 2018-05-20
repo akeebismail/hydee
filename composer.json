@@ -1,0 +1,9 @@
+{
+  "name" : "Indentation Task",
+  "author" : "Emehinola Idowu",
+  "autoload" : {
+    "psr-4" : {
+      "App\\" : "src/"
+    }
+  }
+}
