@@ -9,4 +9,7 @@ namespace App\Controllers;
 
 class CartController{
 
+    public function index(){
+    }
+
 }

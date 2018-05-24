@@ -8,6 +8,6 @@
 include 'constants.php';
 require '../vendor/autoload.php';
 use App\Core\Database;
-if (Database::getDbInstance()){
-    echo  'db connected';
-}
+
+use App\Core\Application;
+$app = new Application();

@@ -11,6 +11,7 @@ namespace App\Controllers;
 class IndexController{
 
     public function index(){
-        return ' home page';
+
+        echo ' home page';
     }
 }
