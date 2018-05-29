@@ -14,4 +14,8 @@ class IndexController{
 
         echo ' home page';
     }
+
+    public function show (){
+
+    }
 }

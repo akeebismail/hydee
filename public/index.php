@@ -7,7 +7,5 @@
  */
 include 'constants.php';
 require '../vendor/autoload.php';
-use App\Core\Database;
-
 use App\Core\Application;
 $app = new Application();

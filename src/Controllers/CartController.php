@@ -10,6 +10,9 @@ namespace App\Controllers;
 class CartController{
 
     public function index(){
+        echo  'cart index';
     }
-
+    public function show($id){
+        echo  'cart show'.$id;
+    }
 }

@@ -6,10 +6,12 @@
  * Time: 6:57 PM
  */
 namespace App\Config;
+use http\Url;
+
 class Redirect {
 
     public static function to($location){
 
-        return header('Location: '. $location);
+        return header('Location: '. APP_URL.$location);
     }
 }
