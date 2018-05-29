@@ -1,7 +1,2 @@
-Options -MultiViews
 RewriteEngine On
-Options -Indexes
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-l
-RewriteRule ^(.*)$ public/index.php?url=$1 [QSA,L]
+RewriteRule ^(.*) public/$1 [L]

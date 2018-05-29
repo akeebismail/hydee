@@ -21,8 +21,7 @@ class Application
         if (!$this->_controller){
             $index = new IndexController();
             $index->index();
-            echo $this->_controller;
-            echo HIS_APP.'Controllers/'.ucfirst($this->_controller).'Controllers.php';
+            //echo HIS_APP.'Controllers/'.ucfirst($this->_controller).'Controllers.php';
         }elseif (file_exists(HIS_APP.'Controllers/'.ucfirst($this->_controller).'Controller.php')){
             $controller = "\\App\\Controllers\\".ucfirst($this->_controller)."Controller";
 
@@ -45,7 +44,7 @@ class Application
 
     private function splitUrl(){
         if (Input::exists('url')){
-            echo $_GET['url'];
+            //echo $_GET['url'];
             $url = trim(Input::get('url'),'/');
             $url = filter_var($url, FILTER_SANITIZE_URL);
             $url = explode('/',$url);
